@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+THE HOME OF SSP GOLF ENERGY BARS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Echoing an increasing demand from PGA Tour professionals for performance nutrition, SSP Golf brings Tour Quality Performance Nutrition direct TO YOU.
+UNIQUE FORMULA
 
-## Available Scripts
+Our unique multistage formula of simple and complex carbohydrates fuels your body and mind with both immediate and long term energy. This multistage formula will help drip feed you around the back nine.
+WORLD'S FIRST
 
-In the project directory, you can run:
+A world first, the innovative, Golf Energy Bar has been scientifically developed to combat fatigue on the back nine, optimise performance and improve the focus of professional and amateur golfers alike, across all areas of their game.
+TASTY
 
-### `npm start`
+Delicious and packed with a unique blend of simple and complex carbohydrates. The Golf Energy Bar range has been developed with the demands of everyday golfers in mind.
+LONG & SHORT TERM ENERGY
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Whereas the positive benefits of sports nutrition have been appreciated across a huge range of other sports, golf has been almost completely overlooked, until now. Our Golf Energy Bar seeks to address this imbalance by providing golfers with a simple, chemical-free way of drip feeding energy to their bodies and minds over the course of a round.
+USED BY PRO'S
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The technology and theory behind our Performance Bars meanwhile, has been used by professional athletes for over ten years. Today, however, it has been skilfully adapted by SSP’s own sports nutrition expert, Lance Geringer B.A.
+FUEL YOUR BODY AND MIND
 
-### `npm test`
+Fuelling your body also fuels your mind and it’s your mind that makes critical decisions. Club selection, estimating distances and reading the green all need focus. A tired mind can make bad decisions.
+ITS ALL ABOUT THE INGREDIENTS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+OATS
 
-### `npm run build`
+Oats are among one of the healthiest grains on earth.
+They’re a gluten free whole grain and a great source of important vitamins, minerals, fibre and antioxidants.
+FRUITS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The nutrients in fruit are vital for health and maintenance of your body and our golf energy bars use a selection of tasty real fruits.
+BERRIES
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+When it comes to health, berries
+have a fabulous reputation and are packed with antioxidants
+CHOCOLATE
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dark chocolate is made from the seed of the cocoa tree and has been enjoyed for thousands of years
+CHECK OUT OUR HOW TO EAT FOR GOLF PAGES AT
 
-### `npm run eject`
+www.mofito.eu/nutrition-tips
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+PGA GOLF
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+PROFESSIONAL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+DISCOUNTS AVALAIBLE
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE WORLDS NUMBER 1 GOLF ENERGY BAR
