@@ -13,7 +13,7 @@ const darkTheme = createTheme({
 const Footer = () => {
     return (
         <ThemeProvider theme={darkTheme}>
-            <AppBar position="static" color="primary" sx={{ top: 'auto', bottom: 0 }} >
+            <AppBar position="static" color="primary" sx={{ bottom: 0 }} >
                 <Toolbar>
                     <Box sx={{ flexGrow: 1, textAlign: 'center' }}>
                         <Typography variant='h2' >
