@@ -10,6 +10,7 @@ import Basics from "./pages/Nutrition Tips/Basics";
 import Footer from "./components/Footer";
 import './App.css'
 
+
 function App() {
   return (
     <Router>
