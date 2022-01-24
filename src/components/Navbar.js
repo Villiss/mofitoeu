@@ -7,8 +7,8 @@ import Flags from 'country-flag-icons/react/3x2'
 import LanguageIcon from '@mui/icons-material/Language';
 
 import { Link } from "react-router-dom";
-const pages = ['', 'Nutrition Tips', 'About Us', 'Trade', 'Contact', 'Order'];
-const links = ['/golfperformanceenergybar', '/nutritiontips', '/aboutus', '/trade', '/contact', '/order'];
+const pages = ['', 'Nutrition Tips', 'About Us', 'Trade', 'Contact'];
+const links = ['/golfperformanceenergybar', '/nutritiontips', '/aboutus', '/trade', '/contact'];
 
 
 const Navbar = () => {
@@ -119,11 +119,6 @@ const Navbar = () => {
                 <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='contact' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">Contact</Typography>
-                  </MenuItem>
-                </Link>
-                <Link to='/order' style={{ textDecoration: 'none', color: 'white' }}>
-                  <MenuItem key='order' onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" variant="button">Order</Typography>
                   </MenuItem>
                 </Link>
                 <MenuItem>
@@ -239,14 +234,7 @@ const Navbar = () => {
                     <Typography variant="button">Contact</Typography>
                   </Button>
                 </Link>
-                <Link to='/order' style={{ textDecoration: 'none' }}>
-                  <Button
-                    key='order'
-                    onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}>
-                    <Typography variant="button">Order</Typography>
-                  </Button>
-                </Link>
+                
                 <IconButton
                   size="large"
                   aria-label="account of current user"

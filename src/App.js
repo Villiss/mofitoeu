@@ -5,7 +5,6 @@ import NutritionTips from "./pages/Nutrition Tips/NutritionTips";
 import AboutUs from "./pages/About/AboutUs";
 import Trade from "./pages/Trade/Trade";
 import Contact from "./pages/Contact";
-import Order from "./pages/Order";
 import Home from "./pages/Home";
 import Basics from "./pages/Nutrition Tips/Basics";
 import Footer from "./components/Footer";
@@ -23,7 +22,6 @@ function App() {
         <Route path='/aboutus' component={AboutUs} />
         <Route path='/trade' component={Trade} />
         <Route path='/contact' component={Contact} />
-        <Route path='/order' component={Order} />
       </Switch>
       <Footer />
     </Router>
