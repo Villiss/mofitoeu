@@ -28,16 +28,16 @@ const languages = [
     name: 'Český',
     country_code: 'cz'
   },
-  {
-    code: 'de',
-    name: 'Deutsch',
-    country_code: 'de'
-  },
-  {
-    code: 'hu',
-    name: 'Magyar',
-    country_code: 'hu'
-  },
+  // {
+  //   code: 'de',
+  //   name: 'Deutsch',
+  //   country_code: 'de'
+  // },
+  // {
+  //   code: 'hu',
+  //   name: 'Magyar',
+  //   country_code: 'hu'
+  // },
 ]
 
 const Navbar = () => {

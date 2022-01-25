@@ -1,8 +1,11 @@
 import { Box, List, ListItem, ListItemIcon, ListItemText, Paper, Typography } from '@mui/material'
 import CircleIcon from '@mui/icons-material/Circle';
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const Trade = () => {
+    const { t } = useTranslation();
+
     return (
         <Box textAlign={'center'} 
         sx={{
@@ -11,55 +14,55 @@ const Trade = () => {
           mt: 10
         }}>
             <Paper>
-                <Typography>8 REASONS TO STOCK SSP GOLF PERFORMANCE ENERGY BARS</Typography>
+                <Typography variant='h3'>{t('trade_8_reasons')}</Typography>
                 <List>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="Only 26% of golfers buy snacks in the pro shop" />
+                        <Typography variant='body1'>{t('trade_26percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="25% of golfers bring their own snacks due to an insufficient offering" />
+                        <Typography variant='body1'>{t('trade_25percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="31% of golfers do not like eating confectionery while playing" />
+                        <Typography variant='body1'>{t('trade_31percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="72% of women golfers will not eat confectionery while playing." />
+                        <Typography variant='body1'>{t('trade_72percent_women')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="18% of golfers avoid eating confectionery (diabetics or for health reasons)" />
+                        <Typography variant='body1'>{t('trade_18percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="88% of golfers do not like eating chocolate in the summer as it melts in their bag and can soil their equipment" />
+                        <Typography variant='body1'>{t('trade_88percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="45% Say they are looking for a healthier snack option" />
+                        <Typography variant='body1'>{t('trade_45percent_golfers')}</Typography>
                     </ListItem>
                     <ListItem disablePadding>
                         <ListItemIcon>
                             <CircleIcon fontSize='small' />
                         </ListItemIcon>
-                        <ListItemText primary="79% Say they would eat an energy bar if it could improve their game." />
+                        <Typography variant='body1'>{t('trade_79percent_golfers')}</Typography>
                     </ListItem>
                 </List>
             </Paper>

@@ -8,11 +8,11 @@ import HttpApi from 'i18next-http-backend';
 import { Skeleton } from '@mui/material';
 
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next) // passes i18n do wn to react-i18next
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ['en', 'sk', 'de', 'cz', 'hu'],
+    supportedLngs: ['sk', 'en', 'cz', 'de', 'hu'],
     fallbackLng: "sk",
     detection: {
       order: ['cookie', 'path', 'htmlTag', 'localStorage', 'subdomain'],

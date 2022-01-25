@@ -1,10 +1,16 @@
+import { Box } from '@mui/material'
 import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
+        <Box textAlign={'center'} 
+        sx={{
+          m: 5,
+          p: 5,
+          mt: 10
+        }}>
             
-        </div>
+        </Box>
     )
 }
 
