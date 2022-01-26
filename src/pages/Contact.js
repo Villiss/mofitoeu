@@ -5,9 +5,10 @@ const Contact = () => {
     return (
         <Box textAlign={'center'} 
         sx={{
-          m: 5,
-          p: 5,
-          mt: 10
+          m: 'auto',
+          mt: 15,
+          minHeight: '100vh',
+          width: {lg: '70%', md: '75%', sm: '80%', xs: '90%'}
         }}>
             
         </Box>

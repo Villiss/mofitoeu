@@ -2,7 +2,7 @@ import React from 'react'
 
 const Basics = () => {
     return (
-        <div>
+        <div name='/basics'>
             Understanding The Basics Of Golf Nutrition
         </div>
     )

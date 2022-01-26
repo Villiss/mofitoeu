@@ -18,8 +18,8 @@ const Footer = () => {
         <ThemeProvider theme={darkTheme}>
             <AppBar position="static" color="primary" sx={{ bottom: 0 }} >
                 <Toolbar>
-                    <Box sx={{ flexGrow: 1, textAlign: 'center' }}>
-                        <Typography variant='h2' >
+                    <Box sx={{ textAlign: 'center', p: 5, m:'auto' }}>
+                        <Typography sx={{ typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' }}} >
                         {t('footer_number_one')}
                         </Typography>
                     </Box>

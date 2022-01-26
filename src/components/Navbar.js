@@ -9,8 +9,6 @@ import cookies from 'js-cookie'
 
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-const pages = ['', 'Nutrition Tips', 'About Us', 'Trade', 'Contact'];
-const links = ['/golfperformanceenergybar', '/nutritiontips', '/aboutus', '/trade', '/contact'];
 
 const languages = [
   {
@@ -95,7 +93,7 @@ const Navbar = () => {
               </Link>
             </Typography>
 
-            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -191,16 +189,19 @@ const Navbar = () => {
                 </MenuItem>
               </Menu>
             </Box>
+
+
+            
             <Typography
               noWrap
               component="div"
-              sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+              sx={{ display: { xs: 'flex', md: 'none' } }}
             >
               <Link to='/'>
                 <img src={logo} alt='logo' />
               </Link>
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                 <Link to='/' style={{ textDecoration: 'none' }}>
                   <Button
                     key='home'
