@@ -1,4 +1,4 @@
-import { Box } from '@mui/material'
+import { Box, Paper } from '@mui/material'
 import React from 'react'
 
 const Contact = () => {
@@ -10,7 +10,9 @@ const Contact = () => {
           minHeight: '100vh',
           width: {lg: '70%', md: '75%', sm: '80%', xs: '90%'}
         }}>
-            
+            <Paper elevation={1} sx={{ my: 1, p: 5 }}>
+
+            </Paper>
         </Box>
     )
 }

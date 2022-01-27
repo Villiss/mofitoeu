@@ -89,7 +89,7 @@ const Navbar = () => {
               sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
             >
               <Link to='/'>
-                <img src={logo} alt='logo' />
+                <img src={logo} alt='logo' style={{ maxWidth: '50%' }} />
               </Link>
             </Typography>
 
@@ -195,10 +195,10 @@ const Navbar = () => {
             <Typography
               noWrap
               component="div"
-              sx={{ display: { xs: 'flex', md: 'none' } }}
+              sx={{ display: { xs: 'flex', md: 'none' }, textAlign: 'center' }}
             >
               <Link to='/'>
-                <img src={logo} alt='logo' />
+                <img src={logo} alt='logo' style={{ maxWidth: '50%'}} />
               </Link>
             </Typography>
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
