@@ -4,7 +4,7 @@ import GolfPerformanceEnergyBars from "./pages/GolfPerformanceEnergyBars/GolfPer
 import NutritionTips from "./pages/Nutrition Tips/NutritionTips";
 import AboutUs from "./pages/About/AboutUs";
 import Trade from "./pages/Trade/Trade";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home";
 import Basics from "./pages/Nutrition Tips/Basics";
 import Footer from "./components/Footer";
