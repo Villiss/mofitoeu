@@ -2,7 +2,7 @@ import { Box, Button, Paper, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import applecinnamon from '../../assets/applecinnamon.jpg'
+import applecinnamon from '../../assets/applecinnamon.JPG'
 
 const AppleCinnamon = () => {
   const { t } = useTranslation();
