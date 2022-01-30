@@ -5,7 +5,7 @@
     "general_hydration": "HYDRATION: DRINK, DRINK, DRINK",
     "general_dont_forget_hydrated": "Don’t forget to keep hydrated throughout your round. Drink some water after every hole. During a golf round you should aim to consume 40% – 50% of your total daily intake of water. If your water intake for the day is 2 litres, you would consume approximately 1 litre of water during your round.  On a very hot day you can double that amount.",
     "general_average": "THE AVERAGE GOLFER BURNS 1,200 CALORIES CARRYING THEIR CLUBS OVER 18 HOLES, SO WHY COMPROMISE WHEN IT COMES TO YOUR NUTRITION ON THE COURSE?",
-
+    
     "navbar_home": "Home",
     "navbar_golf_performance": "Golf Performance Energy Bars",
     "navbar_nutrition_tips": "Nutrition tips",
@@ -55,7 +55,7 @@
     "gpeb_why_not_check":  "Why not check out our How To Eat For Golf nutrition pages www.mofito.eu/nutrition-tips",
     "gpeb_dont_forget": "DON'T FORGET THAT WE CAN OFFER GREAT DEALS FOR SOCIETIES AND EVENTS",
     "gpeb_if_you_are_looking": "If you are looking for something different and want to make an impression on your next golf society day, event or competition then look no further than the World’s No1 Best Selling Golf Performance Energy Bar.  SSP Golf Performance Bars are the perfect accompaniment to your next event and will make a great impression at your next golf day!",
-
+    
     "chocolate_orange_title": "SSP GOLF PERFORMANCE BARS - CHOCOLATE ORANGE",
     "chocolate_orange_ingredients": "INGREDIENTS: Oats (32%), Golden Syrup, Margarine (Palm Oil, Rapeseed Oil, Water, Emulsifier (E471)), Dark Chocolate Chunks (12%)(Cocoa Mass, Sugar, Cocoa Butter, Cocoa Powder, Emulsifier (Soya Lecithin)), Sugar, Crisp Rice (5%)(Rice Flour, Rice Bran, Sugar, Rice Extract), Cocoa Powder (3%), Natural Flavouring. For allergens, including cereals containing gluten, see ingredients in bold",
     
@@ -90,7 +90,7 @@
     "nt_half_hour": "If you are having half hour down the range on your way back from work then you won’t need a golf bar. You just need some hydration and maybe some fruit. Maybe a banana or a protein shake. But if you are having a round after work then you should be thinking about fuelling your body so you still feel okay on the 18th. Take a look at some of the tips above and try and find a system that suits you. This will give you the best chance to lower your score.",
     "nt_average_golfer": "THE AVERAGE GOLFER BURNS 1,200 CALORIES CARRYING THEIR CLUBS OVER 18 HOLES",
     "nt_why_compromise": "WHY COMPROMISE WHEN IT COMES TO YOUR NUTRITION ON THE COURSE?",
-
+    
     "basics_title": "UNDERSTAND THE BASICS OF GOLF NUTRITION",
     "basics_lance": "Lance Geringer B.A (sports kinesiologist, personal trainer and nutrition adviser) takes you through the basics of golf nutrition",
     "basics_whether_you_play_quick": "Whether you’re playing a quick nine holes after work, or a two round corporate/society day, the one thing many golfers forget when planning their round is food. I’ve often seen people fetching a bottle of water and reaching for a chocolate bar as they pay for their rounds. However many holes you’re playing, is a chocolate bar really going to provide you with the fuel you need? This is where understanding the basics of golf nutrition helps.",
@@ -156,7 +156,7 @@
     "36_corporate_when_having": "When having lunch go for a lean protein source such as chicken or fish. Also make sure you have a complex carbohydrate (potato, rice or pasta) and simple carbohydrate (vegetable) with your meal. Don’t forget to allow your food to go down. Wait at least an hour and a half before teeing off if you’re having a big meal.",
     "36_corporate_round_2": "ROUND 2",
     "36_corporate_if_you_are_full": "If you’re still full from lunch and your energy levels are fine you might also decide to skip one third of the bar between holes three and four. Still try and follow the general guidelines for the rest of the round (eating one third of a bar every three holes). In short, you should start snacking before you start feeling peckish.",
-
+    
     "about_who": "WHO IS MOFITO?",
     "about_mofito": "Mofito (owned by TWU s.r.o.) is an exclusive distributor of SSP Golf Performance Energy Bars in countries such as Slovakia, Czech Republic, Austria, Poland, Hungary, Croatia and Slovenia.",
     "about_who_ssp": "WHO ARE SSP GOLF NUTRITION?",
@@ -190,7 +190,7 @@
     "about_dont_crash": "DON'T CRASH AND BURN",
     "about_too_many": "Too many rounds are compromised by the last few holes which can let many golfers down as fatigue and tiredness begins to kick in. With our carefully developed performance bars, you can be sure to solve this problem at its core, allowing you to finish a good round as alert and energised as you started it.",
     "about_why_not_check": "Why not check out our Golf Nutrition pages for advice on how to eat for golf.",
-
+    
     "trade_8_reasons": "8 REASONS TO STOCK SSP GOLF PERFORMANCE ENERGY BARS",
     "trade_26percent_golfers": "Only 26% of golfers buy snacks in the pro shop",
     "trade_25percent_golfers": "25% of golfers bring their own snacks due to an insufficient offering",
@@ -216,6 +216,21 @@
     "trade_no": "NO! The reason being that even though women may weigh less than men they work just as hard over 18 holes and need to replenish their energy systems if they want to reach maximum performance.",
     "trade_info": "Information about ingredients and nutritional values?",
     "trade_first_ingredient": "The first ingredient in our bars is oats, along with rice crisps, wheat and real fruit (Apricots, Blueberries, Cranberries, Goji berries and Raisins). For our Chocolate/Toffee Chip bar we use Belgian Dark Chocolate – known for its incredible flavour. We then bake the bars which give them a taste and texture second to none. Since we are all concerned with the saturated fat content in the foods we eat, the Golf Performance Energy Bars have only 9-10% depending on which bar you eat, which runs along the same guidelines that the government recommends for health. If you’re using the golf performance bar while on the course, your body is burning the small amount of saturated fat in the form of energy from the bar! Every calorie in these bars is utilised as energy- not one calorie will be stored in your system!",
+    
+    "footer_number_one": "THE WORLDS NUMBER 1 GOLF ENERGY BAR",
 
-    "footer_number_one": "THE WORLDS NUMBER 1 GOLF ENERGY BAR"
+    "contact_contact_us": "Contact us",
+    "contact_write_down": "WRITE DOWN YOUR QUESTION AND WE WILL ANSWER YOU SOON.",
+    "contact_subject": "Subject",
+    "contact_name": "Name",
+    "contact_email": "Email",
+    "contact_message": "Your message",
+    "contact_submit": "Submit",
+
+    "confirm_amazing": "Amazing.",
+    "confirm_thank_you": "Thank you for your message, we will text you in as soon as possible.",
+    "confirm_back": "Back",
+    "confirm_oops": "Oops...",
+    "confirm_something_bad": "Something went wrong and your message could not be sent.",
+    "confirm_all_fields": "You have to fill every field."
 }

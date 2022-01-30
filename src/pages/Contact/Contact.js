@@ -1,64 +1,76 @@
-import { Box, Grid, Paper, Typography } from '@mui/material'
-import { Form, Formik } from 'formik'
 import React from 'react'
-import * as Yup from 'yup'
+import emailjs from '@emailjs/browser'
+import swal from 'sweetalert'
+import { Box, Button, Paper, TextField, Typography } from '@mui/material'
+import { useTranslation } from 'react-i18next'
 
-const INITIAL_FORM_STATE = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-}
+function Kontakt() {
+    const { t } = useTranslation();
 
-const FORM_VALIDATION = Yup.object().shape({
-    firstName: Yup.string().required('Required'),
-    lastName: Yup.string().required('Required'),
-    email: Yup.string().email('Invalid email.').required('Required'),
-    // phone: 
-})
+    function odoslane(){
+        swal({
+            title: t('confirm_amazing'),
+            text: t('confirm_thank_you'),
+            icon: 'success',
+            button: t('confirm_back'),
+        })
+    }
 
-const Contact = () => {
+    function neodoslane(){
+        swal({
+            title: t('confirm_oops'),
+            text: t('confirm_something_bad'),
+            icon: 'error',
+            button: t('confirm_back'),
+        })
+    }
+
+    function nevyplnene(){
+        swal({
+            title: t('confirm_oops'),
+            text: t('confirm_all_fields'),
+            icon: 'error',
+            button: t('confirm_back'),
+        })
+    }
+
     return (
         <Box textAlign={'center'} 
         sx={{
-          m: 'auto',
-          mt: 15,
-          minHeight: '100vh',
-          width: {lg: '70%', md: '75%', sm: '80%', xs: '90%'}
+            m: 'auto',
+            mt: 15,
+            minHeight: '100vh',
+            width: {lg: '70%', md: '75%', sm: '80%', xs: '90%'}
         }}>
-            <Paper elevation={1} sx={{ my: 1, p: 5 }}>
-                {/* <Formik
-                    initialValues={{
-                        ...INITIAL_FORM_STATE
-                    }}
-                    validationSchema={FORM_VALIDATION}
-                    onSubmit={values => {
-                        console.log(values)
-                    }}
-                >
-                    <Form>
-                        <Grid container spacing={2}>
-                            <Grid item xs={12}>
-                                <Typography>
-                                    Your Details
-                                </Typography>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Typography>
-                                    Adresa
-                                </Typography>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Typography>
-                                    Info
-                                </Typography>
-                            </Grid>
-                        </Grid>
-                    </Form>
-                </Formik> */}
+            <Paper elevation={1} sx={{ my: 1, p: { lg: 8, md: 8, sm: 6, xs: 4 } }}>
+                <Paper elevation={1} sx={{ my: 1, display: 'flex', flexDirection: 'column', width: { lg: '50%', md: '60%', sm: '80%', xs: '100%' }, m: 'auto' }}>
+                    <form onSubmit={sendEmail}>
+                        <Typography sx={{ typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h4' }}}>{t('contact_contact_us')}</Typography>
+                        <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }}}>{t('contact_write_down')}</Typography>
+                        <TextField name='predmet' id='predmet' sx={{ m: 3, width: '80%' }} label={t('contact_subject')} variant="outlined" required />
+                        <TextField name='meno' id='meno' sx={{ m: 3, width: '80%' }} label={t('contact_name')} variant="outlined" required />
+                        <TextField name='email' id='email' sx={{ m: 3, width: '80%' }} label={t('contact_email')} variant="outlined" required />
+                        <TextField name='sprava' id='sprava' sx={{ m: 3, width: '80%' }} label={t('contact_message')} variant="outlined" required multiline />
+                        <Button id='button' sx={{ my: 3, backgroundColor: 'rgba(0, 0, 0, 0.54)' }} variant="contained" type='submit'>
+                            {t('contact_submit')}
+                        </Button>
+                    </form>
+                </Paper>
             </Paper>
         </Box>
     )
+
+    function sendEmail(e) {
+        e.preventDefault();
+        
+        emailjs.sendForm('service_q6d0s3m', 'template_ql226do', e.target, 'user_7GDQxbhCqcE2KSYfTHdI1')
+        .then(() => {
+            odoslane()
+        }, () => {
+            neodoslane()
+        });
+        e.target.reset()
+    }
 }
 
-export default Contact
+export default Kontakt
