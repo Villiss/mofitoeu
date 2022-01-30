@@ -1,5 +1,7 @@
 {
     "general_click_here_to_order": "CLICK HERE TO ORDER",
+    "general_24_times_90_grams": "24 times 90 grams",
+    "general_features": "Features",
 
     "navbar_home": "Home",
     "navbar_golf_performance": "Golf Performance Energy Bars",
@@ -51,6 +53,26 @@
     "gpeb_dont_forget": "DON'T FORGET THAT WE CAN OFFER GREAT DEALS FOR SOCIETIES AND EVENTS",
     "gpeb_if_you_are_looking": "If you are looking for something different and want to make an impression on your next golf society day, event or competition then look no further than the World’s No1 Best Selling Golf Performance Energy Bar.  SSP Golf Performance Bars are the perfect accompaniment to your next event and will make a great impression at your next golf day!",
 
+    "chocolate_orange_title": "SSP GOLF PERFORMANCE BARS - CHOCOLATE ORANGE",
+    "chocolate_orange_ingredients": "INGREDIENTS: Oats (32%), Golden Syrup, Margarine (Palm Oil, Rapeseed Oil, Water, Emulsifier (E471)), Dark Chocolate Chunks (12%)(Cocoa Mass, Sugar, Cocoa Butter, Cocoa Powder, Emulsifier (Soya Lecithin)), Sugar, Crisp Rice (5%)(Rice Flour, Rice Bran, Sugar, Rice Extract), Cocoa Powder (3%), Natural Flavouring. For allergens, including cereals containing gluten, see ingredients in bold",
+    
+    "apple_cinnamon_title": "SSP GOLF PERFORMANCE BARS - APPLE & CINNAMON",
+    "apple_cinnamon_ingredients": "INGREDIENTS: Oats (34%), Golden Syrup, Margarine (Palm Oil, Rapeseed Oil), Water, Emulsifier (E471)), Dried Apple (8%)(Dried Apple, Preservative (Sodium Metabisulphite), Sugar, Crisp Rice (7%)( Rice Flour, Rice Bran, Sugar, Rice Extract)), Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin, Thiamin)), Cinnamon, Natural Flavouring.",
+    "apple_cinnamon_allergens": "For allergens, including cereals containing gluten, see ingredients in bold’",
+    
+    "chocolate_cinnamon_title": "SSP GOLF PERFORMANCE BARS - CHOCOLATE & TOFFEE",
+    "chocolate_cinnamon_ingredients": "INGREDIENTS: Oats (34%), Golden Syrup, Margarine (Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt, Emulsifier (E471)), Brown Sugar, Dark Chocolate Chunks (6%) (Cocoa Mass, Sugar, Emulsifier (Soya Lecithin), Vanilla Extract) , Fudge Pieces (6%) (Sugar, Full Cream Sweetened Condensed (Milk), Fondant (Sugar, Glucose, Water), Glucose, Palm Oil, Butter Oil (Milk), Natural Flavour), Crisp Rice ( Rice Flour, Wheat Flour (Calcium, Iron, Niacin, Thiamin), Sugar, Whey Powder (Milk), Malt Flour (Barley), Salt, Rapeseed Oil, Emulsifier (Soya Lecithin)), Wheat Flour (Calcium, Iron, Niacin, Thiamin)",
+    "chocolate_cinnamon_allergens": "Allergens: Oats, Soya, Milk, Barley, Wheat",
+    
+    "fruit_oats_title": "SSP GOLF PERFORMANCE BARS- SUPERBERRY",
+    "fruit_oats_ingredients": "INGREDIENTS: Oats (26%)(Oat Gluten), Golden Syrup, Margarine (Non Hydrogenated Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt), Brown Sugar, Dried Apricots (7%)(Apricots, Rice Flour, Preservative (Sulphur Dioxide)), Raisins (7%)(Raisins, Sunflower Oil), Puffed Rice (Wheat Flour, Rice Flour, Sugar, Dextrose, Salt, Emulsifier (Mono-and Diglycerides Of Fatty Acids)), Sunflower Seeds (3%), Wheat Flour (Gluten) Allergens including cereals containing gluten, see ingredients in bold. Allergens: Oats, Soya, Milk, Barley, Wheat",
+    
+    "superberry_title": "SSP GOLF PERFORMANCE BARS- FRUIT & OAT",
+    "superberry_ingredients": "INGREDIENTS: Oats (30%)(Oat Gluten), Golden Syrup, Margarine (Non Hydrogenated Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt), Brown Sugar, Puffed Rice (Wheat Flour (Gluten), Rice Flour, Sugar, Dextrose, Salt, Emulsifier (Mono-and Diglycerides Of Fatty Acids)), Dried Cranberries (4%)(Cranberries, Sugar, Sunflower Oil), Dried Blueberries (4%)(Blueberries, Sugar, Sunflower Oil), Goji Berries (1%), Wheat Flour (Gluten), Allergens including cereals containing gluten, see ingredients in bold",
+    
+    "white_chocolate_strawberry_title": "SSP GOLF PERFORMANCE BARS- WHITE CHOCOLATE & STRAWBERRY",
+    "white_chocolate_strawberry_ingredients": "INGREDIENTS: Oats (35%), Golden Syrup, Margarine (Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt), Brown Sugar, White Chocolate Chunks (6%)( Sugar, Cocoa Butter, Whole Milk Powder, Whey Powder (Milk), Lactose (Milk), Emulsifier (Soya Lecithin), Vanilla Extract)), Crisp Rice ( Rice Flour, Wheat Flour (Calcium, Iron, Niacin, Thiamin), Sugar, Whey Powder (Milk), Malt Flour (Barley), Salt, Rapeseed Oil, Emulsifier (Soya Lecithin)), Strawberry Pieces (4%)( Concentrated Apple Puree, Strawberry Puree, Fructose Glucose Syrup, Glucose, Sugar, Humectant (Vegetable Glycerol), Wheat Fibre, Palm Oil, Acidity Regulator (Malic Acid), Gelling Agent (Pectin), Concentrates (Carrot, Pumpkin, Blueberry), Natural Flavouring , Wheat Flour,",
+    
     "nt_golf_nt": "GOLF NUTRITION TIPS",
     "nt_this_page": "This golf nutrition tips page gives you an insight into how to eat effectively for golf.",
     "nt_nutrition": "Golf nutrition is fast becoming a recognised way of helping to lower your score. Whether you are a tour professional or a keen club player, eating correctly allows your body and mind to be well fuelled throughout your round allowing you to make better decisions with your game.",
