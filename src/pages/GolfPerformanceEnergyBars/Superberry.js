@@ -25,7 +25,7 @@ const Superberry = () => {
         
         
         </Paper>
-          <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
+          <Link to={t('url_contact')} style={{ textDecoration: 'none', color: 'white' }}>
             <Button sx={{ m:'auto', mt: 5, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('general_click_here_to_order')}</Button>
           </Link>
         </Paper>

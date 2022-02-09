@@ -232,5 +232,23 @@
     "confirm_back": "Späť",
     "confirm_oops": "Ups...",
     "confirm_something_bad": "Niečo sa pokazilo a správu sa nedalo odoslať.",
-    "confirm_all_fields": "Treba vyplniť všetky polia."
+    "confirm_all_fields": "Treba vyplniť všetky polia.",
+
+    "url_golfperformanceenergybar": "/golfperformancetycinky",
+    "url_basics": "/zaklady",
+    "url_nutritiontips": "/nutricnetipy",
+    "url_aboutus": "/onas",
+    "url_trade": "/obchod",
+    "url_contact": "/kontakt",
+    "url_nineholesafternoon": "/devatjamiekpoobede",
+    "url_eighteenmorning": "/osemnastjamiekrano",
+    "url_eighteenafternoon": "/osemnastjamiekpoobede",
+    "url_corporate27": "/korporatnyden27jamiek",
+    "url_corporate36": "/korporatnyden36jamiek",
+    "url_chocolateorange": "/cokoladapomaranc",
+    "url_applecinnamon": "/jablkoskorica",
+    "url_chocolatetoffee": "/cokoladakaramel",
+    "url_fuitsoats": "/ovocieovos",
+    "url_superberry": "/superberry",
+    "url_whitechocolatestrawberry": "/bielacokoladajahody"
 }

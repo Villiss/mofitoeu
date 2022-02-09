@@ -127,27 +127,27 @@ const Navbar = () => {
                     <Typography textAlign="center" variant="button">{t('navbar_home')}</Typography>
                   </MenuItem>
                 </Link>
-                <Link to='/golfperformanceenergybar' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to={t('url_golfperformanceenergybar')} style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='golfperformanceenergybar' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">{t('navbar_golf_performance')}</Typography>
                   </MenuItem>
                 </Link>
-                <Link to='/nutritiontips' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to={t('url_nutritiontips')} style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='nutritiontips' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">{t('navbar_nutrition_tips')}</Typography>
                   </MenuItem>
                 </Link>
-                <Link to='/aboutus' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to={t('url_aboutus')} style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='aboutus' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">{t('navbar_about_us')}</Typography>
                   </MenuItem>
                 </Link>
-                <Link to='/trade' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to={t('url_trade')} style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='trade' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">{t('navbar_trade')}</Typography>
                   </MenuItem>
                 </Link>
-                <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to={t('url_contact')} style={{ textDecoration: 'none', color: 'white' }}>
                   <MenuItem key='contact' onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" variant="button">{t('navbar_contact')}</Typography>
                   </MenuItem>
@@ -210,7 +210,7 @@ const Navbar = () => {
                     <Typography variant="button">{t('navbar_home')}</Typography>
                   </Button>
                 </Link>
-                <Link to='/golfperformanceenergybar' style={{ textDecoration: 'none' }}>
+                <Link to={t('url_golfperformanceenergybar')} style={{ textDecoration: 'none' }}>
                   <Button
                     key='golfperformanceenergybar'
                     onClick={handleCloseNavMenu}
@@ -218,7 +218,7 @@ const Navbar = () => {
                     <Typography variant="button">{t('navbar_golf_performance')}</Typography>
                   </Button>
                 </Link>
-                <Link to='/nutritiontips' style={{ textDecoration: 'none' }}>
+                <Link to={t('url_nutritiontips')} style={{ textDecoration: 'none' }}>
                   <Button
                     key='nutritiontips'
                     onClick={handleCloseNavMenu}
@@ -226,7 +226,7 @@ const Navbar = () => {
                     <Typography variant="button">{t('navbar_nutrition_tips')}</Typography>
                   </Button>
                 </Link>
-                <Link to='/aboutus' style={{ textDecoration: 'none' }}>
+                <Link to={t('url_aboutus')} style={{ textDecoration: 'none' }}>
                   <Button
                     key='aboutus'
                     onClick={handleCloseNavMenu}
@@ -234,7 +234,7 @@ const Navbar = () => {
                     <Typography variant="button">{t('navbar_about_us')}</Typography>
                   </Button>
                 </Link>
-                <Link to='/trade' style={{ textDecoration: 'none' }}>
+                <Link to={t('url_trade')} style={{ textDecoration: 'none' }}>
                   <Button
                     key='trade'
                     onClick={handleCloseNavMenu}
@@ -242,7 +242,7 @@ const Navbar = () => {
                     <Typography variant="button">{t('navbar_trade')}</Typography>
                   </Button>
                 </Link>
-                <Link to='/contact' style={{ textDecoration: 'none' }}>
+                <Link to={t('url_contact')} style={{ textDecoration: 'none' }}>
                   <Button
                     key='contact'
                     onClick={handleCloseNavMenu}

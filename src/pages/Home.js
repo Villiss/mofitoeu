@@ -69,7 +69,7 @@ export default function Home () {
         <Paper elevation={1} sx={{my:1, p: 5}}>
           <Typography variant='h4'>{t('home_check_out_our')}</Typography>
           <Typography variant='body1'>
-            <Link to='/nutritiontips' underline="hover">{t('home_nutrition_tips_link')}</Link>
+            <Link to={t('url_nutritiontips')} underline="hover">{t('home_nutrition_tips_link')}</Link>
           </Typography>
 
           <Typography variant='body1'>{t('home_pga_golf')}</Typography>

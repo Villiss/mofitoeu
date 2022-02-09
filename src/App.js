@@ -20,32 +20,34 @@ import ChocolateToffee from "./pages/GolfPerformanceEnergyBars/ChocolateToffee";
 import FruitsOats from "./pages/GolfPerformanceEnergyBars/FruitsOats";
 import Superberry from "./pages/GolfPerformanceEnergyBars/Superberry";
 import WhiteChocolateStrawberry from "./pages/GolfPerformanceEnergyBars/WhiteChocolateStrawberry";
+import { useTranslation } from "react-i18next";
 
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <Router>
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/golfperformanceenergybar' component={GolfPerformanceEnergyBars} />
-        <Route path='/basics' component={Basics} />
-        <Route path='/nutritiontips' component={NutritionTips} />
-        <Route path='/aboutus' component={AboutUs} />
-        <Route path='/trade' component={Trade} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/basics' component={Basics} />
-        <Route path='/nineholesafternoon' component={NineHolesAfternoon} />
-        <Route path='/eighteenmorning' component={EighteenHolesMorning} />
-        <Route path='/eighteenafternoon' component={EighteenHolesAfternoon} />
-        <Route path='/corporate27' component={Corporate27} />
-        <Route path='/corporate36' component={Corporate36} />
-        <Route path='/chocolateorange' component={ChocolateOrange} />
-        <Route path='/applecinnamon' component={AppleCinnamon} />
-        <Route path='/chocolatetoffee' component={ChocolateToffee} />
-        <Route path='/fuitsoats' component={FruitsOats} />
-        <Route path='/superberry' component={Superberry} />
-        <Route path='/whitechocolatestrawberry' component={WhiteChocolateStrawberry} />
+        <Route path={t('url_golfperformanceenergybar')} component={GolfPerformanceEnergyBars} />
+        <Route path={t('url_basics')} component={Basics} />
+        <Route path={t('url_nutritiontips')} component={NutritionTips} />
+        <Route path={t('url_aboutus')} component={AboutUs} />
+        <Route path={t('url_trade')} component={Trade} />
+        <Route path={t('url_contact')} component={Contact} />
+        <Route path={t('url_nineholesafternoon')} component={NineHolesAfternoon} />
+        <Route path={t('url_eighteenmorning')} component={EighteenHolesMorning} />
+        <Route path={t('url_eighteenafternoon')} component={EighteenHolesAfternoon} />
+        <Route path={t('url_corporate27')} component={Corporate27} />
+        <Route path={t('url_corporate36')} component={Corporate36} />
+        <Route path={t('url_chocolateorange')} component={ChocolateOrange} />
+        <Route path={t('url_applecinnamon')} component={AppleCinnamon} />
+        <Route path={t('url_chocolatetoffee')} component={ChocolateToffee} />
+        <Route path={t('url_fuitsoats')} component={FruitsOats} />
+        <Route path={t('url_superberry')} component={Superberry} />
+        <Route path={t('url_whitechocolatestrawberry')} component={WhiteChocolateStrawberry} />
       </Switch>
       <Footer />
     </Router>
