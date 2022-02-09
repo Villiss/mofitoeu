@@ -42,15 +42,15 @@ function Kontakt() {
             minHeight: '100vh',
             width: {lg: '70%', md: '75%', sm: '80%', xs: '90%'}
         }}>
-            <Paper elevation={1} sx={{ my: 1, p: { lg: 8, md: 8, sm: 6, xs: 4 } }}>
-                <Paper elevation={1} sx={{ my: 1, display: 'flex', flexDirection: 'column', width: { lg: '50%', md: '60%', sm: '80%', xs: '100%' }, m: 'auto' }}>
+            <Paper elevation={1} sx={{ my: 1, p: { lg: 3, md: 3, sm: 2, xs: 1 } }}>
+                <Paper elevation={1} sx={{ my: 1, p: 4, display: 'flex', flexDirection: 'column', width: { lg: '70%', md: '80%', sm: '90%', xs: '100%' }, m: 'auto' }}>
                     <form onSubmit={sendEmail}>
-                        <Typography sx={{ typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h4' }}}>{t('contact_contact_us')}</Typography>
+                        <Typography sx={{ typography: { lg: 'h3', md: 'h3', sm: 'h4', xs: 'h4' }}}>{t('contact_contact_us')}</Typography>
                         <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }}}>{t('contact_write_down')}</Typography>
-                        <TextField name='predmet' id='predmet' sx={{ m: 3, width: '80%' }} label={t('contact_subject')} variant="outlined" required />
-                        <TextField name='meno' id='meno' sx={{ m: 3, width: '80%' }} label={t('contact_name')} variant="outlined" required />
-                        <TextField name='email' id='email' sx={{ m: 3, width: '80%' }} label={t('contact_email')} variant="outlined" required />
-                        <TextField name='sprava' id='sprava' sx={{ m: 3, width: '80%' }} label={t('contact_message')} variant="outlined" required multiline />
+                        <TextField fullWidth name='predmet' id='predmet' sx={{ m: 3, width: '80%' }} label={t('contact_subject')} variant="outlined" required />
+                        <TextField fullWidth name='meno' id='meno' sx={{ m: 3, width: '80%' }} label={t('contact_name')} variant="outlined" required />
+                        <TextField fullWidth name='email' id='email' sx={{ m: 3, width: '80%' }} label={t('contact_email')} variant="outlined" required />
+                        <TextField fullWidth name='sprava' id='sprava' sx={{ m: 3, width: '80%' }} label={t('contact_message')} variant="outlined" required multiline />
                         <Button id='button' sx={{ my: 3, backgroundColor: 'rgba(0, 0, 0, 0.54)' }} variant="contained" type='submit'>
                             {t('contact_submit')}
                         </Button>
