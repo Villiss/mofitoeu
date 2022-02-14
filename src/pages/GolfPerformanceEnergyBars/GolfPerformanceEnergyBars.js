@@ -25,26 +25,26 @@ const GolfPerformanceEnergyBars = () => {
             </Paper>
             <Paper elevation={1} sx={{ my: 1, p: 5 }}>
                 <Typography sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h5' }, my: 2}}>{t('gpeb_6_flavours')}</Typography>
-                <Link to={t('url_chocolateorange')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/chocolateorange' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_new_chocolate_orange') }</Typography>
                 </Link>
-                <Link to={t('url_applecinnamon')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/applecinnamon' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_new_apple_cinnamon')}</Typography>
                 </Link>
-                <Link to={t('url_chocolatetoffee')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/chocolatetoffee' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_chocholate_toffee')}</Typography>
                 </Link>
-                <Link to={t('url_fuitsoats')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/fuitsoats' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_fruit_oat')}</Typography>
                 </Link>
-                <Link to={t('url_superberry')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/superberry' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_superberry')}</Typography>
                 </Link>
-                <Link to={t('url_whitechocolatestrawberry')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/whitechocolatestrawberry' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_white_chocolate_strawberry')}</Typography>
                 </Link>
 
-                <Link to={t('url_nutritiontips')} style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/nutritiontips' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography variant='body2'>{t('gpeb_why_not_check')}</Typography>
                 </Link>
 

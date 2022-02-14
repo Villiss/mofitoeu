@@ -232,23 +232,5 @@
     "confirm_back": "Back",
     "confirm_oops": "Oops...",
     "confirm_something_bad": "Something went wrong and your message could not be sent.",
-    "confirm_all_fields": "You have to fill every field.",
-
-    "url_golfperformanceenergybar": "/golfperformanceenergybar",
-    "url_basics": "/basics",
-    "url_nutritiontips": "/nutritiontips",
-    "url_aboutus": "/aboutus",
-    "url_trade": "/trade",
-    "url_contact": "/contact",
-    "url_nineholesafternoon": "/nineholesafternoon",
-    "url_eighteenmorning": "/eighteenmorning",
-    "url_eighteenafternoon": "/eighteenafternoon",
-    "url_corporate27": "/corporate27",
-    "url_corporate36": "/corporate36",
-    "url_chocolateorange": "/chocolateorange",
-    "url_applecinnamon": "/applecinnamon",
-    "url_chocolatetoffee": "/chocolatetoffee",
-    "url_fuitsoats": "/fuitsoats",
-    "url_superberry": "/superberry",
-    "url_whitechocolatestrawberry": "/whitechocolatestrawberry"
+    "confirm_all_fields": "You have to fill every field."
 }

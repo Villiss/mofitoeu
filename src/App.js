@@ -20,11 +20,8 @@ import ChocolateToffee from "./pages/GolfPerformanceEnergyBars/ChocolateToffee";
 import FruitsOats from "./pages/GolfPerformanceEnergyBars/FruitsOats";
 import Superberry from "./pages/GolfPerformanceEnergyBars/Superberry";
 import WhiteChocolateStrawberry from "./pages/GolfPerformanceEnergyBars/WhiteChocolateStrawberry";
-import { useTranslation } from "react-i18next";
-
 
 function App() {
-  const { t } = useTranslation();
 
   return (
     <Router>

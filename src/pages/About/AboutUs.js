@@ -41,7 +41,7 @@ const AboutUs = () => {
  
                 <Typography sx={{my: 1}} variant='subtitle1'>{t('about_average_golfer')}</Typography>
 
-                <Link to={t('url_nutritiontips')} style={{ textDecoration: 'none', color: 'black' }}><Typography variant='h5'>{t('about_check_out')}</Typography></Link>
+                <Link to='/nutritiontips' style={{ textDecoration: 'none', color: 'black' }}><Typography variant='h5'>{t('about_check_out')}</Typography></Link>
  
                 
             </Paper>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                 <Typography sx={{my: 1}} variant='body1'>{t('about_too_many')}</Typography>
                 <Typography sx={{my: 1}} variant='body1'>{t('about_why_not_check')}</Typography>
             
-                <Link to={t('url_contact')} style={{ textDecoration: 'none', color: 'white' }}>
+                <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
                     <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('general_click_here_to_order')}</Button>
                 </Link>
             </Paper>

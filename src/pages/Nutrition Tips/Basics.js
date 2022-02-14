@@ -29,7 +29,7 @@ const Basics = () => {
             
               <img src={hungermeter} alt='Hungermeter' style={{ maxWidth: '100%', marginTop: 50}}/>
               <Paper elevation={1} sx={{ my: 1, p: 5}}>
-              <Link to={t('url_contact')} style={{ textDecoration: 'none', color: 'white' }}>
+              <Link to='/contact' style={{ textDecoration: 'none', color: 'white' }}>
                 <Button sx={{ m:'auto', mt: 5, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('general_click_here_to_order')}</Button>
               </Link>
             </Paper>

@@ -38,25 +38,25 @@ const NutritionTips = () => {
                 </Paper>
                 <Paper elevation={1} sx={{ display: 'flex', flexDirection: {lg: 'row', md: 'row', sm: 'column', xs: 'column'} }}>
                     <Paper  sx={{ m: 1, p: 5}}>
-                        <Link to={t('url_basics')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/basics' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1,  backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_understanding')}</Button>
                         </Link>
-                        <Link to={t('url_nineholesafternoon')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/nineholesafternoon' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_nine_afternoon')}</Button>
                         </Link>
-                        <Link to={t('url_eighteenmorning')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/eighteenmorning' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_eighteen_morning')}</Button>
                         </Link>
-                        <Link to={t('url_eighteenafternoon')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/eighteenafternoon' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_eighteen_afternoon')}</Button>
                         </Link>
                         {currentLanguageCode === 'en' ?   
-                        <Link to={t('url_corporate27')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/corporate27' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_27_corporate')}</Button>
                         </Link>
                         : null}
                         {currentLanguageCode === 'en' ? 
-                        <Link to={t('url_corporate36')} style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link to='/corporate36' style={{ textDecoration: 'none', color: 'white' }}>
                             <Button sx={{ m:'auto', my: 1, backgroundColor: 'rgba(0, 0, 0, 0.54)'  }} variant='contained'>{t('nt_36_corporate')}</Button>
                         </Link>
                         : null}
