@@ -180,7 +180,8 @@ const Navbar = () => {
                 >
                   {languages.map(({code, name, country_code}) => (
                     <MenuItem key={country_code} onClick={handleCloseUserMenuSmall}>
-                      <Button onClick={() => i18next.changeLanguage(code)} disabled={code === currentLanguageCode}>
+                      <Button onClick={() => i18next.changeLanguage(code)
+                        .then(console.log(window.location.href))} disabled={code === currentLanguageCode}>
                       {name}
                       </Button>
                     </MenuItem>
@@ -278,7 +279,8 @@ const Navbar = () => {
                 >
                 {languages.map(({code, name, country_code}) => (
                   <MenuItem key={country_code} onClick={handleCloseUserMenu}>
-                    <Button onClick={() => i18next.changeLanguage(code)} disabled={code === currentLanguageCode}>
+                    <Button onClick={() => i18next.changeLanguage(code)
+                    .then(console.log(window.location.href))} disabled={code === currentLanguageCode}>
                       {name}
                     </Button>
                   </MenuItem>
