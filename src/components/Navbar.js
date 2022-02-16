@@ -26,16 +26,16 @@ const languages = [
     name: 'Český',
     country_code: 'cz'
   },
-  // {
-  //   code: 'de',
-  //   name: 'Deutsch',
-  //   country_code: 'de'
-  // },
-  // {
-  //   code: 'hu',
-  //   name: 'Magyar',
-  //   country_code: 'hu'
-  // },
+  {
+    code: 'de',
+    name: 'Deutsch',
+    country_code: 'de'
+  },
+  {
+    code: 'hu',
+    name: 'Magyar',
+    country_code: 'hu'
+  },
 ]
 
 const Navbar = () => {
@@ -76,6 +76,10 @@ const Navbar = () => {
       },
     },
   });
+
+  const changelang = (code) => {
+      i18next.changeLanguage(code)
+  }
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -180,8 +184,7 @@ const Navbar = () => {
                 >
                   {languages.map(({code, name, country_code}) => (
                     <MenuItem key={country_code} onClick={handleCloseUserMenuSmall}>
-                      <Button onClick={() => i18next.changeLanguage(code)
-                        .then(console.log(window.location.href))} disabled={code === currentLanguageCode}>
+                      <Button onClick={() => changelang(code)} disabled={code === currentLanguageCode}>
                       {name}
                       </Button>
                     </MenuItem>
@@ -279,8 +282,7 @@ const Navbar = () => {
                 >
                 {languages.map(({code, name, country_code}) => (
                   <MenuItem key={country_code} onClick={handleCloseUserMenu}>
-                    <Button onClick={() => i18next.changeLanguage(code)
-                    .then(console.log(window.location.href))} disabled={code === currentLanguageCode}>
+                    <Button onClick={() => changelang(code)} disabled={code === currentLanguageCode}>
                       {name}
                     </Button>
                   </MenuItem>

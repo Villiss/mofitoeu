@@ -26,10 +26,10 @@ const GolfPerformanceEnergyBars = () => {
             <Paper elevation={1} sx={{ my: 1, p: 5 }}>
                 <Typography sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h5' }, my: 2}}>{t('gpeb_6_flavours')}</Typography>
                 <Link to='/chocolateorange' style={{ textDecoration: 'none', color: 'black' }}>
-                    <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_new_chocolate_orange') }</Typography>
+                    <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_chocolate_orange') }</Typography>
                 </Link>
                 <Link to='/applecinnamon' style={{ textDecoration: 'none', color: 'black' }}>
-                    <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_new_apple_cinnamon')}</Typography>
+                    <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_apple_cinnamon')}</Typography>
                 </Link>
                 <Link to='/chocolatetoffee' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_chocholate_toffee')}</Typography>
@@ -48,7 +48,6 @@ const GolfPerformanceEnergyBars = () => {
                     <Typography variant='body2'>{t('gpeb_why_not_check')}</Typography>
                 </Link>
 
-                <Typography sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h5' }, my: 2}}>{t('gpeb_dont_forget')}</Typography>
                 <Typography variant='body1'>{t('gpeb_if_you_are_looking')}</Typography>
                 </Paper>
         </Box>
