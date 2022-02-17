@@ -6,7 +6,16 @@
     "general_hydration": "HYDRATION: TRINKEN, TRINKEN, TRINKEN",
     "general_dont_forget_hydrated": "Vergessen Sie nicht, während Ihrer gesamten Runde hydratisiert zu bleiben. Trinken Sie nach jedem Loch etwas Wasser. Während einer Golfrunde sollten Sie versuchen, 40% - 50% Ihrer gesamten täglichen Wasseraufnahme zu verbrauchen. Wenn Ihre Wasseraufnahme für den Tag 2 Liter beträgt, würden Sie während Ihrer Runde ungefähr 1 Liter Wasser verbrauchen. An einem sehr heißen Tag können Sie diesen Betrag verdoppeln.",
     "general_average": "DER DURCHSCHNITTLICHE GOLFER VERBRENNT 1.200 KALORIEN, DIE IHRE CLUBS ÜBER 18 LÖCHER TRAGEN, WARUM DAHER KOMPROMISSE BEI ​​IHRER ERNÄHRUNG AUF DEM KURS GEHEN?",
-    
+    "general_per_90_grams": "Pro 90g Riegel",
+    "general_grams": "Gramm",
+    "general_carbohydrates": "Kohlenhydrate",
+    "general_sugar": "davon Zucker",
+    "general_protein": "Protein",
+    "general_fibre": "Ballaststoffe",
+    "general_fats": "Fette",
+    "general_saturates": "davon gesättigte Fettsäuren",
+    "general_salt": "Salz",
+
     "navbar_home": "Zuhause",
     "navbar_golf_performance": "Golf Performance Energy Bars",
     "navbar_nutrition_tips": "Ernährungstipps",

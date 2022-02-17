@@ -5,8 +5,16 @@
     "general_features": "Features",
     "general_hydration": "HYDRATION: DRINK, DRINK, DRINK",
     "general_dont_forget_hydrated": "Don’t forget to keep hydrated throughout your round. Drink some water after every hole. During a golf round you should aim to consume 40% – 50% of your total daily intake of water. If your water intake for the day is 2 litres, you would consume approximately 1 litre of water during your round.  On a very hot day you can double that amount.",
-    "general_average": "THE AVERAGE GOLFER BURNS 1,200 CALORIES CARRYING THEIR CLUBS OVER 18 HOLES, SO WHY COMPROMISE WHEN IT COMES TO YOUR NUTRITION ON THE COURSE?",
-    
+    "general_per_90_grams": "Per 90g Bar",
+    "general_grams": "Grams",
+    "general_carbohydrates": "Carbohydrates",
+    "general_sugar": "of which sugar",
+    "general_protein": "Protein",
+    "general_fibre": "Fibre",
+    "general_fats": "Total Fats",
+    "general_saturates": "of which saturates",
+    "general_salt": "Salt",
+
     "navbar_home": "Home",
     "navbar_golf_performance": "Golf Performance Energy Bars",
     "navbar_nutrition_tips": "Nutrition tips",

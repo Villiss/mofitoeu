@@ -8,19 +8,18 @@ function createData(name, grams) {
   return { name, grams };
 }
 
-const rows = [
-  createData('Carbohydrates', '48.6g'),
-  createData('of which sugar', '28.8g'),
-  createData('Protein', '5.4g'),
-  createData('Fibre', '4.6g'),
-  createData('Total Fats', '18.9g'),
-  createData('of which staurates', '7.2g'),
-  createData('Salt', '0.41g'),
-];
-
-
 const ChocolateOrange = () => {
   const { t } = useTranslation();
+
+  const rows = [
+    createData(t('general_carbohydrates'), '48.6g'),
+    createData(t('general_sugar'), '28.8g'),
+    createData(t('general_protein'), '5.4g'),
+    createData(t('general_fibre'), '4.6g'),
+    createData(t('general_fats'), '18.9g'),
+    createData(t('general_saturates'), '7.2g'),
+    createData(t('general_salt'), '0.41g'),
+  ];  
 
   return (
     <Box textAlign={'center'} 
@@ -40,8 +39,8 @@ const ChocolateOrange = () => {
               <Table sx={{ width: '100%' }} aria-label="simple table">
                 <TableHead>
                   <TableRow>
-                    <TableCell>Per 90g Bar</TableCell>
-                    <TableCell align="left">Grams</TableCell>
+                    <TableCell>{t('general_per_90_grams')}</TableCell>
+                    <TableCell align="left">{t('general_grams')}</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
