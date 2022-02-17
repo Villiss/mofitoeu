@@ -20,33 +20,35 @@ import ChocolateToffee from "./pages/GolfPerformanceEnergyBars/ChocolateToffee";
 import FruitsOats from "./pages/GolfPerformanceEnergyBars/FruitsOats";
 import Superberry from "./pages/GolfPerformanceEnergyBars/Superberry";
 import WhiteChocolateStrawberry from "./pages/GolfPerformanceEnergyBars/WhiteChocolateStrawberry";
+import ScrollToTop from './pages/ScrollToTop'
 
 function App() {
 
   return (
     <Router>
-      <Navbar/>
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/golfperformanceenergybar' component={GolfPerformanceEnergyBars} />
-        <Route path='/basics' component={Basics} />
-        <Route path='/nutritiontips' component={NutritionTips} />
-        <Route path='/aboutus' component={AboutUs} />
-        <Route path='/trade' component={Trade} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/nineholesafternoon' component={NineHolesAfternoon} />
-        <Route path='/eighteenmorning' component={EighteenHolesMorning} />
-        <Route path='/eighteenafternoon' component={EighteenHolesAfternoon} />
-        <Route path='/corporate27' component={Corporate27} />
-        <Route path='/corporate36' component={Corporate36} />
-        <Route path='/chocolateorange' component={ChocolateOrange} />
-        <Route path='/applecinnamon' component={AppleCinnamon} />
-        <Route path='/chocolatetoffee' component={ChocolateToffee} />
-        <Route path='/fuitsoats' component={FruitsOats} />
-        <Route path='/superberry' component={Superberry} />
-        <Route path='/whitechocolatestrawberry' component={WhiteChocolateStrawberry} />
-      </Switch>
-      <Footer />
+      <ScrollToTop />
+        <Navbar/>
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/golfperformanceenergybar' component={GolfPerformanceEnergyBars} />
+          <Route path='/basics' component={Basics} />
+          <Route path='/nutritiontips' component={NutritionTips} />
+          <Route path='/aboutus' component={AboutUs} />
+          <Route path='/trade' component={Trade} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/nineholesafternoon' component={NineHolesAfternoon} />
+          <Route path='/eighteenmorning' component={EighteenHolesMorning} />
+          <Route path='/eighteenafternoon' component={EighteenHolesAfternoon} />
+          <Route path='/corporate27' component={Corporate27} />
+          <Route path='/corporate36' component={Corporate36} />
+          <Route path='/chocolateorange' component={ChocolateOrange} />
+          <Route path='/applecinnamon' component={AppleCinnamon} />
+          <Route path='/chocolatetoffee' component={ChocolateToffee} />
+          <Route path='/fuitsoats' component={FruitsOats} />
+          <Route path='/superberry' component={Superberry} />
+          <Route path='/whitechocolatestrawberry' component={WhiteChocolateStrawberry} />
+        </Switch>
+        <Footer />
     </Router>
   );
 }

@@ -1,8 +1,23 @@
-import { Box, Button, Paper, Typography } from '@mui/material';
+import { Box, Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import applecinnamon from '../../assets/applecinnamon.JPG'
+
+function createData(name, grams) {
+  return { name, grams };
+}
+
+const rows = [
+  createData('Carbohydrates', '54.0g'),
+  createData('of which sugar', '29.7g'),
+  createData('Protein', '4.5g'),
+  createData('Fibre', '4.1g'),
+  createData('Total Fats', '16.2g'),
+  createData('of which staurates', '5.4g'),
+  createData('Salt', '0.43g'),
+];
+
 
 const AppleCinnamon = () => {
   const { t } = useTranslation();
@@ -20,7 +35,31 @@ const AppleCinnamon = () => {
           <Paper elevation={1} sx={{ my: 1, p: 5 }}>
             <img src={applecinnamon} alt='Apple & Cinnamon' style={{ maxWidth: '100%', marginTop: 50}}/>
             <Typography sx={{my: 1}} variant='body1'>{t('general_24_times_90_grams')}</Typography>
-            <Typography sx={{my: 1}} variant='body1'>{t('general_features')}</Typography>
+            <Typography sx={{mt: 5}} variant='h5'>{t('general_nutritional_values')}</Typography>
+            <TableContainer component={Paper} elevation={1} sx={{ my: 5, p: 5 }}>
+              <Table sx={{ width: '100%' }} aria-label="simple table">
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Per 90g Bar</TableCell>
+                    <TableCell align="left">Grams</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {rows.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                    >
+                      <TableCell component="th" scope="row">
+                        {row.name}
+                      </TableCell>
+                      <TableCell align="left">{row.grams}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+            <Typography sx={{my: 1}} variant='h5'>{t('general_features')}</Typography>
             <Typography sx={{my: 1}} variant='body1'>{t('apple_cinnamon_ingredients')}</Typography>
             <Typography sx={{my: 1}} variant='body1'>{t('apple_cinnamon_allergens')}</Typography>
         

@@ -1,6 +1,7 @@
 {
     "general_click_here_to_order": "KLIKNĚTE ZDE A KONTAKTUJTE NÁS",
     "general_24_times_90_grams": "24 times 90 grams",
+    "general_nutritional_values": "Nutriční hodnoty",
     "general_features": "Features",
     "general_hydration": "HYDRATION: DRINK, DRINK, DRINK",
     "general_dont_forget_hydrated": "Don’t forget to keep hydrated throughout your round. Drink some water after every hole. During a golf round you should aim to consume 40% – 50% of your total daily intake of water. If your water intake for the day is 2 litres, you would consume approximately 1 litre of water during your round.  On a very hot day you can double that amount.",
@@ -46,14 +47,13 @@
     "gpeb_packed": "BALENÍ PLNÉ ENERGIE",
     "gpeb_are_delicious": "Tyčinky SSP GOLF PERFORMANCE ENERGY BAR jsou vynikající a nabité jedinečným vícestupňovým složením jednoduchých a složitých sacharidů. Dodávají tělu energii, aby ji bylo možné použít, když to nejvíc potřebujete. Všechny tyčinky jsou pečlivě vyrobeny ručně s vynikajícími kombinacemi ovsa, ovoce, bobulí a čokolády. Všechny byly vyvinuty s ohledem na požadavky golfových hráčů. To znamená, že pomalu uvolňují energii a pohánějí vás během Vaší hry a pomáhají snižovat Vaše skóre.",
     "gpeb_6_flavours": "ŠEST SKVĚLÝCH JEDINEČNÝCH PŘÍCHUTÍ",
-    "gpeb_new_chocolate_orange": "NOVÁ ČOKOLÁDA A POMERANČ",
-    "gpeb_new_apple_cinnamon": "NOVÁ JABLKO A SKOŘICE",
+    "gpeb_chocolate_orange": "ČOKOLÁDA A POMERANČ",
+    "gpeb_apple_cinnamon": "JABLKO A SKOŘICE",
     "gpeb_chocholate_toffee": "ČOKOLÁDA A KARAMEL",
     "gpeb_fruit_oat": "OVOCE A OVES",
     "gpeb_superberry": "SUPERBERRY",
     "gpeb_white_chocolate_strawberry": "BÍLÁ ČOKOLÁDA A JAHODY",
     "gpeb_why_not_check":  "Proč nezkusit naše stránky Jak se stravovat při golfu www.mofito.eu/nutrition-tips",
-    "gpeb_dont_forget": "NEZAPOMEŇTE, ŽE MŮŽEME NABÍDNOUT ZAKÁZKY PRO SPOLEČNOSTI A UDÁLOSTI",
     "gpeb_if_you_are_looking": "Pokud hledáte něco jiného a chcete udělat dojem, nehledejte nic jiného než světově nejprodávanější energetický golfovou tyčinku. Tyčinky SSP GOLF PERFORMANCE ENERGY BAR udělají skvělý dojem.r. SSP GOLF PERFORMANCE ENERGY BAR jsou dokonalým doprovodem k vaší příští akci a udělají skvělý dojem.",
 
     "chocolate_orange_title": "SSP GOLF PERFORMANCE BARS - CHOCOLATE ORANGE",
@@ -67,10 +67,10 @@
     "chocolate_cinnamon_ingredients": "INGREDIENTS: Oats (34%), Golden Syrup, Margarine (Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt, Emulsifier (E471)), Brown Sugar, Dark Chocolate Chunks (6%) (Cocoa Mass, Sugar, Emulsifier (Soya Lecithin), Vanilla Extract) , Fudge Pieces (6%) (Sugar, Full Cream Sweetened Condensed (Milk), Fondant (Sugar, Glucose, Water), Glucose, Palm Oil, Butter Oil (Milk), Natural Flavour), Crisp Rice ( Rice Flour, Wheat Flour (Calcium, Iron, Niacin, Thiamin), Sugar, Whey Powder (Milk), Malt Flour (Barley), Salt, Rapeseed Oil, Emulsifier (Soya Lecithin)), Wheat Flour (Calcium, Iron, Niacin, Thiamin)",
     "chocolate_cinnamon_allergens": "Allergens: Oats, Soya, Milk, Barley, Wheat",
     
-    "fruit_oats_title": "SSP GOLF PERFORMANCE BARS- SUPERBERRY",
+    "fruit_oats_title": "SSP GOLF PERFORMANCE BARS- FRUIT & OAT",
     "fruit_oats_ingredients": "INGREDIENTS: Oats (26%)(Oat Gluten), Golden Syrup, Margarine (Non Hydrogenated Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt), Brown Sugar, Dried Apricots (7%)(Apricots, Rice Flour, Preservative (Sulphur Dioxide)), Raisins (7%)(Raisins, Sunflower Oil), Puffed Rice (Wheat Flour, Rice Flour, Sugar, Dextrose, Salt, Emulsifier (Mono-and Diglycerides Of Fatty Acids)), Sunflower Seeds (3%), Wheat Flour (Gluten) Allergens including cereals containing gluten, see ingredients in bold. Allergens: Oats, Soya, Milk, Barley, Wheat",
     
-    "superberry_title": "SSP GOLF PERFORMANCE BARS- FRUIT & OAT",
+    "superberry_title": "SSP GOLF PERFORMANCE BARS- SUPERBERRY",
     "superberry_ingredients": "INGREDIENTS: Oats (30%)(Oat Gluten), Golden Syrup, Margarine (Non Hydrogenated Vegetable Oils (Palm Oil, Rapeseed Oil), Water, Salt), Brown Sugar, Puffed Rice (Wheat Flour (Gluten), Rice Flour, Sugar, Dextrose, Salt, Emulsifier (Mono-and Diglycerides Of Fatty Acids)), Dried Cranberries (4%)(Cranberries, Sugar, Sunflower Oil), Dried Blueberries (4%)(Blueberries, Sugar, Sunflower Oil), Goji Berries (1%), Wheat Flour (Gluten), Allergens including cereals containing gluten, see ingredients in bold",
     
     "white_chocolate_strawberry_title": "SSP GOLF PERFORMANCE BARS- WHITE CHOCOLATE & STRAWBERRY",
