@@ -22,6 +22,9 @@ const Footer = () => {
                         <Typography sx={{ typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' }}} >
                         {t('footer_number_one')}
                         </Typography>
+                        <Typography sx={{ typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' }}} >
+                        {t('footer_in_world')}
+                        </Typography>
                     </Box>
                 </Toolbar>
             </AppBar>
