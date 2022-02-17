@@ -44,7 +44,7 @@ function App() {
           <Route path='/chocolateorange' component={ChocolateOrange} />
           <Route path='/applecinnamon' component={AppleCinnamon} />
           <Route path='/chocolatetoffee' component={ChocolateToffee} />
-          <Route path='/fuitsoats' component={FruitsOats} />
+          <Route path='/fruitsoats' component={FruitsOats} />
           <Route path='/superberry' component={Superberry} />
           <Route path='/whitechocolatestrawberry' component={WhiteChocolateStrawberry} />
         </Switch>

@@ -34,7 +34,7 @@ const GolfPerformanceEnergyBars = () => {
                 <Link to='/chocolatetoffee' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_chocholate_toffee')}</Typography>
                 </Link>
-                <Link to='/fuitsoats' style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to='/fruitsoats' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography sx={{ typography: { lg: 'h4', md: 'h5', sm: 'h5', xs: 'h6' }, my: 2}}>{t('gpeb_fruit_oat')}</Typography>
                 </Link>
                 <Link to='/superberry' style={{ textDecoration: 'none', color: 'black' }}>
