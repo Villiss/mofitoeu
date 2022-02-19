@@ -30,6 +30,7 @@
     "material-ui-flags": "^1.2.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
     "react-i18next": "^11.15.3",
     "react-icons": "^4.3.1",
     "react-router": "^6.2.1",
