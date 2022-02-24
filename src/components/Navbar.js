@@ -26,11 +26,11 @@ const languages = [
     name: 'Český',
     country_code: 'cz'
   },
-  // {
-  //   code: 'de',
-  //   name: 'Deutsch',
-  //   country_code: 'de'
-  // },
+  {
+    code: 'de',
+    name: 'Deutsch',
+    country_code: 'de'
+  },
   // {
   //   code: 'hu',
   //   name: 'Magyar',
