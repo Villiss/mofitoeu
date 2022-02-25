@@ -31,11 +31,11 @@ const languages = [
     name: 'Deutsch',
     country_code: 'de'
   },
-  // {
-  //   code: 'hu',
-  //   name: 'Magyar',
-  //   country_code: 'hu'
-  // },
+  {
+    code: 'hu',
+    name: 'Magyar',
+    country_code: 'hu'
+  },
 ]
 
 const Navbar = () => {

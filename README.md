@@ -37,6 +37,6 @@ CHOCOLATE
 Dark chocolate is made from the seed of the cocoa tree and has been enjoyed for thousands of years
 CHECK OUT OUR HOW TO EAT FOR GOLF PAGES AT
 
-www.mofito.eu/nutrition-tips
+www.mofito.eu/nutritiontips
 
 THE WORLDS NUMBER 1 GOLF ENERGY BAR
