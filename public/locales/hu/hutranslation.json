@@ -220,18 +220,18 @@
     "footer_number_one": "1. GOLF ENERGIA BÁR A VILÁGON",
     "footer_in_world": "A VILÁGON",
 
-    "contact_contact_us": "Kapcsolat",
-    "contact_write_down": "ÍRJA LE KÉRDÉSÉT, ÉS HAMAROSAN VÁLASZOLUNK.",
-    "contact_subject": "Tárgy",
-    "contact_name": "Név",
+    "contact_contact_us": "Contact us",
+    "contact_write_down": "WRITE DOWN YOUR QUESTION AND WE WILL ANSWER YOU SOON.",
+    "contact_subject": "Subject",
+    "contact_name": "Name",
     "contact_email": "Email",
-    "contact_message": "Az üzenet",
-    "contact_submit": "Előterjeszt",
+    "contact_message": "Your message",
+    "contact_submit": "Submit",
 
-    "confirm_amazing": "Csodálatos.",
-    "confirm_thank_you": "Köszönjük üzenetét, a lehető leghamarabb beírjuk Önnek.",
-    "confirm_back": "Hát",
-    "confirm_oops": "Hoppá...",
-    "confirm_something_bad": "Valami elromlott, és az üzenetet nem lehetett elküldeni.",
-    "confirm_all_fields": "Minden mezőt ki kell töltenie."
+    "confirm_amazing": "Amazing.",
+    "confirm_thank_you": "Thank you for your message, we will text you in as soon as possible.",
+    "confirm_back": "Back",
+    "confirm_oops": "Oops...",
+    "confirm_something_bad": "Something went wrong and your message could not be sent.",
+    "confirm_all_fields": "You have to fill every field."
 }

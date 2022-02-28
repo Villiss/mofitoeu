@@ -229,18 +229,18 @@
     "footer_number_one": "NUMMER 1 GOLF ENERGY BAR",
     "footer_in_world": "IN DER WELT",
 
-    "contact_contact_us": "Kontaktieren Sie uns",
-    "contact_write_down": "Schreiben Sie Ihre Frage auf und wir werden Ihnen bald antworten.",
-    "contact_subject": "Gegenstand",
+    "contact_contact_us": "Contact us",
+    "contact_write_down": "WRITE DOWN YOUR QUESTION AND WE WILL ANSWER YOU SOON.",
+    "contact_subject": "Subject",
     "contact_name": "Name",
     "contact_email": "Email",
-    "contact_message": "Deine Nachricht",
-    "contact_submit": "Einreichen",
+    "contact_message": "Your message",
+    "contact_submit": "Submit",
 
-    "confirm_amazing": "Tolle.",
-    "confirm_thank_you": "Vielen Dank für Ihre Nachricht, wir werden uns so schnell wie möglich bei Ihnen melden.",
-    "confirm_back": "Zurück",
-    "confirm_oops": "Hoppla...",
-    "confirm_something_bad": "Etwas ist schief gelaufen und Ihre Nachricht konnte nicht gesendet werden.",
-    "confirm_all_fields": "Sie müssen jedes Feld ausfüllen."
+    "confirm_amazing": "Amazing.",
+    "confirm_thank_you": "Thank you for your message, we will text you in as soon as possible.",
+    "confirm_back": "Back",
+    "confirm_oops": "Oops...",
+    "confirm_something_bad": "Something went wrong and your message could not be sent.",
+    "confirm_all_fields": "You have to fill every field."
 }
